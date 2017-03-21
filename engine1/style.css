@@ -218,11 +218,11 @@
 	width: 0;
 	border-radius: 50%;
 	background: rgba(0, 0, 0, 0);
-	-webkit-box-shadow: inset 0 0 0 1px #fff;
-	box-shadow: inset 0 0 0 1px #fff;
+	-webkit-box-shadow: inset 0 0 0 1px #ffffff;
+	box-shadow: inset 0 0 0 1px #ffffff;
 }
 #wowslider-container1 .ws_bullets a.ws_selbull {
-	background: #fff;
+	background: #ffffff;
 	padding: 6px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -234,7 +234,7 @@
 	position:absolute;
 	font: 3.2em "ws-ctrl-bootstrap";
 	z-index:60;
-	color: #fff;
+	color: #ffffff;
 	overflow: hidden;
 	width: 15%;
 	height: 100%;
@@ -265,7 +265,7 @@
 	right: 0;
 	text-align: center;
 	vertical-align: middle;
-	color: #fff;
+	color: #ffffff;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.6);
 }
 #wowslider-container1 a.ws_next:after{
@@ -287,7 +287,7 @@
 	left: 50%;
 	margin-top: -0.5em;
 	margin-left: -0.3125em;
-	color: #fff;
+	color: #ffffff;
 	opacity: 0.5;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.6);
 	text-decoration: none;
@@ -322,7 +322,7 @@
 	height: 0; 
 	border-left: 7px solid transparent;
 	border-right: 7px solid transparent;
-	border-top: 7px solid #fff;
+	border-top: 7px solid #ffffff;
 
 	bottom:-10px;
 	margin-left:-7px;
@@ -331,7 +331,7 @@
 	position: absolute;
 	background: none;
 	font: 2.4em 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color:#fff;
+	color:#ffffff;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	bottom: 50px;
 	top: auto;
@@ -366,7 +366,7 @@
 	left:-41px;
 	visibility:hidden;
 	position:absolute;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
 	max-width:none;
 }
 #wowslider-container1 .ws_bullets a:hover img{
@@ -383,7 +383,7 @@
 	overflow:hidden;
 	position:relative;
 	width:82px;
-	background-color:#fff;
+	background-color:#ffffff;
 }
 #wowslider-container1  .ws_bullets .ws_bulframe{
 	display:none;
@@ -392,7 +392,7 @@
 	overflow:visible;
 	position:absolute;
 	cursor:pointer;
-    border: 3px solid #fff;
+    border: 3px solid #ffffff;
 }#wowslider-container1 .ws_bulframe div div{
 	height: auto;
 }
