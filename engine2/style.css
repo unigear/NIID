@@ -28,16 +28,11 @@
 	text-align:left; /* reset align=center */
 	font-size: 10px;
 	text-shadow: none; /* fix some user styles */
-	margin-left: 4em;
+
 	/* reset box-sizing (to boostrap friendly) */
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box; 
-}
-@media screen and (max-width: 800px){
-	#wowslider-container2 {
-		margin-left: 0;
-	}
 }
 * html #wowslider-container2{ width:700px }
 #wowslider-container2 .ws_images ul{
@@ -325,7 +320,7 @@
 
 /*playpause*/
 #wowslider-container2 .ws_playpause > span {
-	display: none;
+	display: block;
 	height:100%;
 	background-color: rgba(37, 37, 37, 0.8);
 	
@@ -333,6 +328,7 @@
 
 	-webkit-transition: all 0.5s ease;
   	transition: all 0.5s ease;
+  	display: none;
 }
 #wowslider-container2 .ws_playpause:hover > span {
 	background-color: #ffffff;
