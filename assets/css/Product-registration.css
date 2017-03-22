@@ -373,6 +373,7 @@
 		}
 	#three .inner .content{
 	width: 1000px;}
+
 @media screen and (max-width: 780px){
 	#three .inner .content{
 	width: 600px;
@@ -388,7 +389,6 @@
 	width: 100%;
 	background-color: #c3c3c3;
 	display: table;
-	margin-top: 3em;
 }
 .service{
 	max-width: 1045px;
