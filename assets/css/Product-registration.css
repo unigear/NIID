@@ -371,7 +371,18 @@
 			display: block;
 		margin: 0 auto;
 		}
-
+	#three .inner .content{
+	width: 1000px;}
+@media screen and (max-width: 780px){
+	#three .inner .content{
+	width: 600px;
+		}
+	}
+@media screen and (max-width: 480px){
+	#three .inner .content{
+	width: 400px;
+		}
+	}
 /*服務條*/
 #four{
 	width: 100%;
