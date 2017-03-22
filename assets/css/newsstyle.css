@@ -372,7 +372,6 @@
 		max-width: 800px;
 		width: 100%;
 		margin: 0 auto;
-		height: 800px;
 		display: table;
 	}
 
@@ -392,12 +391,18 @@
 		#three .inner .content p{
 		margin-right: 2em;
 		float: left;
+		line-height: 2em;
 		}
 		#three .inner .content a{
 		float:left;
 		text-decoration:none;
 		color: #2869FD;
 		}
+		#three .inner .content .newsimg img{
+			width: 100%;
+			max-width: inherit;
+		}
+
 /*服務條*/
 #four{
 	width: 100%;
