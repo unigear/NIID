@@ -1,11 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
 
-/*
-	Introspect by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Reset */
 
@@ -177,11 +172,15 @@
 		display: inline-block;
 	}
 
-		#nav a{
+	#nav .nava{
+		padding-right: 1em;
+		display: inline-block;
+
+	}
+		#nav .nava a{
 		position: relative;
 		top: 1em;	
 		font-size: 1.2em;
-		padding-right: 1em;
 		text-decoration: none;
 		color: white;
 	}

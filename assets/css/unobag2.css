@@ -172,11 +172,15 @@
 		display: inline-block;
 	}
 
-		#nav a{
+	#nav .nava{
+		padding-right: 1em;
+		display: inline-block;
+
+	}
+		#nav .nava a{
 		position: relative;
 		top: 1em;	
 		font-size: 1.2em;
-		padding-right: 1em;
 		text-decoration: none;
 		color: white;
 	}
