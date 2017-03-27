@@ -402,7 +402,7 @@
 /*three*/
 
 	#three {
-		padding: 6em 0 4em 0;
+		padding: 6em 0 1em 0;
 		max-width: 1045px;
 		margin: 0 auto;
 	}
@@ -535,11 +535,21 @@
 				cursor: pointer;
 			}
 	/*第四段*/
-	#three .title{
-		font-size: 50px;
-		margin-bottom: 1em;
+	#three div{
+		width: 100%;
+		height: auto;
 	}
-/*服務條*/
+	#three .title{
+		font-size: 40px;
+		margin-bottom: 1em;
+		margin-left: 1em;
+	}
+@media screen and (max-width: 600px){
+	#three .title{
+		margin-left: 0;
+		text-align: center;
+	}
+}
 /*服務條*/
 #four{
 	width: 100%;
