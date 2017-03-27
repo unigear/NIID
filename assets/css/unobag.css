@@ -449,6 +449,9 @@
 			height:100%;
 		}
 /*本文開始*/
+			#three{
+				color: #2b2c2c;
+			}
 			#three .product{
 				width: 300px;
 				display:inline-block;
