@@ -612,6 +612,9 @@
 					width: inherit;
 				}
 			}
+				.Introduction{
+					text-align: center;
+					}
 /*服務條*/
 #four{
 	width: 100%;

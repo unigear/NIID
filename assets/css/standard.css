@@ -470,7 +470,9 @@
 		margin:0.5em;
 	}	
 }
-
+				.Introduction{
+					text-align: center;
+					}
 /*按鈕*/
 .animate
 {

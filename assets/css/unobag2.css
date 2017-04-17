@@ -617,7 +617,9 @@
 					padding-left: 0em;
 				}
 			}
-
+				.Introduction{
+					text-align: center;
+					}
 /*content-img*/
 #three .inner .content-img{
 	width: 100%;
