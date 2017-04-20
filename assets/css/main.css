@@ -645,3 +645,20 @@
   		left: 0;
   		right: 0;
 	}
+.grow-1{
+    display: inline-block;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    transition-property: transform;  
+    -webkit-transition-property: transform;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.grow-1:hover, .grow-1:focus, .grow-1:active {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+ 
+}
