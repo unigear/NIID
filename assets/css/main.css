@@ -143,14 +143,14 @@
 
 			}
 		#header .logo {
-			background-image: url(../../images/niidunologo.png);
+			background-image: url(../../images/niidlogo.png);
 			background-repeat: no-repeat;
 			background-position: center 1.7em;
 			text-indent: 101%;
 			overflow: hidden;
 			white-space:nowrap;
 			display: block;
-			width: 257px;
+			width: 165px;
 			line-height: inherit;
 			position: absolute;
 			text-align: center;
@@ -160,11 +160,11 @@
 		}
 		@media screen and (max-width: 480px){
 			#header .logo{
-				background-image:url(../../images/niidlogo.png);
 				width:165px;
 				margin-left: 30px;
 			}
 		}
+
 /* Menu */
 
 	#nav {

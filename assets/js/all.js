@@ -41,4 +41,8 @@ $(document).ready(function() {
       "src":"images/standard4.jpg"
     });
   });
+  $(".title-k ").click(function(){
+    $(".inner-k").slideToggle();
+});
+
 });
