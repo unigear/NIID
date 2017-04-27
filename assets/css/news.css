@@ -403,6 +403,7 @@
 }
 .service .service-1{
 	margin: 0 auto;
+	float: left;
 	width: 300px;
 	display: block;
 	padding-top: 1.2em;
@@ -442,6 +443,9 @@
 	}
 	.service .service-2 li{
 		padding-bottom: 0.5em;
+	}
+	.service .service-1 {
+		float: none;
 	}
 }
 	
