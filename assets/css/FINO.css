@@ -361,6 +361,10 @@
 		height: 150px;
 		margin: 0 auto;
 
+	}
+	#warpbanner div{
+		display: block;
+		float: left;
 	}	
 	#warpbanner img{
 		position: relative;
@@ -370,10 +374,8 @@
 	}
 	#warpbanner h2{
 		width: 300px;
-		position: relative;
-		bottom: 1.4em;
-		left: 13em;
-		padding-left: 1em;
+		position: absolute;
+		top:5em;
 		font-size: 30px;
 	}
 	@media screen and (max-width: 681px){
@@ -394,7 +396,9 @@
 			padding-left: 2em;
 			font-size: 25px;
 		}
-
+		#warpbanner h2{
+			display: none;
+		}
 }
 /*three*/
 
@@ -446,16 +450,12 @@
 			#three{
 				color: #2b2c2c;
 			}
-			#three .product{
-				width: 100%;
-				display:inline-block;
-				z-index: 20;
-				vertical-align:middle;
-			}
-			#three .product-1{
+			#three .product,.product-1{
 				margin:0 auto;
 				vertical-align:middle;
 				width: 100%;
+				padding-left: 1em;
+				padding-right: 1em;
 			}
 			#three .product-2{
 				width: 400px;
@@ -467,28 +467,59 @@
 				padding-bottom: 2em;
 				padding-left: 3em;
 			}
-			#three .centerdiv{
-				width: 100%;
-				height: 200px;
-				float: left;
-				margin-top: 1%
+			/*蛇狀排列*/
+			.flex-container {
+			  padding: 0;
+			  margin: 0;
+			  list-style: none;
+			  display: -webkit-box;
+			  display: -moz-box;
+			  display: -ms-flexbox;
+			  display: -webkit-flex;
+			  display: flex;
+  
+			  -webkit-flex-flow: row wrap;
+			  justify-content: space-around;
 			}
-			#three .leftdiv{
-				display: block;
-				max-width: 430px;
-				width: 430px;
-				float: left;
+
+			.flex-item {
+			  width: 450px;
+			  margin-top: 10px;
+			  padding: 5px;
+			  text-align: center;
 			}
-			#three .rightdiv{
-				display: block;
-				width: 430px;
-				max-width: 430px;
-				float: left;
-				margin-left:1%; 
+			.flex-center{
+			  display: flex;
+			  align-items: center;
+    		  justify-content: center;
 			}
+			.flex-container-1{
+			  flex-direction: row-reverse;
+			}
+			.flex-item h4{
+			  font-size: 40px;
+			  margin-top: 10%;
+			  margin-bottom: 10%;
+			}
+			.flex-item h5{
+			  font-size: 30px;
+			  margin-top: 10%;
+			  margin-bottom: 10%;
+			}
+			.flex-item p{
+			  font-size: 20px;
+			  line-height: 150%;
+			}
+			
+			/*蛇狀排列結束*/
 			#three .inner article {
 				max-width:1000px; 
 				display: block;
+				margin: 0 auto;
+				}
+			#three .inner article .content{
+				display: block;
+				margin: 0 auto;
 				}
 				#three .inner article .content li{
 					float: none;
@@ -543,8 +574,6 @@
 				}
 			@media screen and (max-width: 916px){
 
-				#three .product-1{
-				}
 				#three .inner article .h2font{
 					width: inherit;
 				}
@@ -562,14 +591,6 @@
 			}
 
 			@media screen and (max-width: 600px) {
-				#three .product{
-					margin-left: 1.5em;
-					margin-right: 1.5em;
-				}
-				#three .product-1{
-					margin-left: 1.5em;
-					
-				}
 				#three .product-2{
 					width: 300px;
 					padding-left: 2em;
@@ -612,7 +633,6 @@
 }
 .service .service-1{
 	margin: 0 auto;
-	float: left;
 	width: 300px;
 	display: block;
 	padding-top: 1.2em;
