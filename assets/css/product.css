@@ -144,14 +144,14 @@
 
 			}
 		#header .logo {
-			background-image: url(../../images/niidlogo.png);
+			background-image: url(../../images/NIIDTW-logo.svg);
 			background-repeat: no-repeat;
 			background-position: center 1.7em;
 			text-indent: 101%;
 			overflow: hidden;
 			white-space:nowrap;
 			display: block;
-			width: 165px;
+			width: 297px;
 			line-height: inherit;
 			position: absolute;
 			text-align: center;
@@ -161,7 +161,8 @@
 		}
 		@media screen and (max-width: 480px){
 			#header .logo{
-				width:165px;
+				background-image: url(../../images/NIIDTW-logo2.svg);
+				width: 240px;
 				margin-left: 30px;
 			}
 		}
@@ -547,6 +548,7 @@
 	}
 	#three .title-k{
 		margin: 0 auto;
+		text-align: center;
 	}
 	#three .title img{
 		width: 110px;
