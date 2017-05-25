@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
 (function($) {
 
 	skel.breakpoints({
@@ -64,6 +64,7 @@ $(document).ready(function() {
 
 	});
 
-});
+})(jQuery);
+$(document).ready(function() {
 	
 });
