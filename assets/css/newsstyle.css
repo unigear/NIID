@@ -376,15 +376,23 @@
 		#three .inner {
 		padding:3em 0 0 0;
 		}
-		#three .inner .content,.content-1{
+		#three .inner .content{
 		font-size: 20px;
 		}
-		#three .inner .content,.content-1 h2{
-			font-size: 40px;
+		#three .inner .content-1{
+		font-size: 20px;
+		}
+		#three .inner .content h2{
+			font-size: 35px;
 			color: #2869FD;
 			display: block;
-			height: 100px;
-			
+			text-align: center;			
+		}
+		#three .inner .content-1 h2{
+			font-size: 35px;
+			color: #2869FD;
+			display: block;
+			text-align: center;			
 		}
 		#three .inner .content p{
 		margin-right: 2em;
@@ -396,17 +404,33 @@
 		line-height: 2em;
 		text-align: left;
 		}
-		#three .inner .content,.content-1 a{
+		#three .inner .content a{
 		text-decoration:none;
 		color: #2869FD;
+		font-size: 30px;
 		}
-		#three .inner .content,.content-1 .newsimg{
+		#three .inner .content-1 a{
+		text-decoration:none;
+		color: #2869FD;
+		font-size: 30px;
+		}
+		#three .inner .content .newsimg{
 		margin: 0 auto;
 	    display: block;
 	    float: none;
 	    margin-top: 10px;
 		}
-		#three .inner .content,.content-1 .newsimg img{
+		#three .inner .content-1 .newsimg{
+		margin: 0 auto;
+	    display: block;
+	    float: none;
+	    margin-top: 10px;
+		}
+		#three .inner .content .newsimg img{
+			width: 100%;
+			max-width: inherit;
+		}
+		#three .inner .content-1 .newsimg img{
 			width: 100%;
 			max-width: inherit;
 		}
