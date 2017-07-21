@@ -539,7 +539,7 @@
 .n_mian{ 
 	width:100%;
 	height:auto;
-	margin-top: 30px;}
+	margin-top: 120px;}
 .f_mian{ 
 	width:1045px;
 	height:auto; 
@@ -556,7 +556,7 @@
 .f_mian .f_input p{ 
 	width:100%; 
 	height:auto; 
-	font:24px/40px "microsoft yahei";
+	font:24px/40px "微軟正黑體","Microsoft JhengHei","儷黑 Pro","LiHei Pro","文泉驛正黑","WenQuanYi Zen Hei","Droid Sans";
 	color:#333; 
 	float:left; 
 	margin:5px 0 10px 0; 
@@ -567,8 +567,7 @@
 	overflow:hidden; 
 	float:left; 
 	color:#333; 
-	font:16px/45px 
-	"microsoft yahei"; 
+	font:16px/45px "微軟正黑體","Microsoft JhengHei","儷黑 Pro","LiHei Pro","文泉驛正黑","WenQuanYi Zen Hei","Droid Sans"; 
 	border-radius:5px; 
 	border:solid #dcdcdc 1px;
 	text-indent:10px; }
@@ -580,7 +579,7 @@
 	color:#fff; 
 	text-align:center; 
 	border-radius:5px; 
-	font:14px/40px "microsoft yaehi"; 
+	font:20px/40px "微軟正黑體","Microsoft JhengHei","儷黑 Pro","LiHei Pro","文泉驛正黑","WenQuanYi Zen Hei","Droid Sans"; 
 	float:left; 
 	margin-top:25px; 
 	border:none;cursor:pointer;}
@@ -600,7 +599,7 @@
 	overflow: hidden; 
 	padding: 15px 10px;
 	background: url(http://www.niid.com/wp-content/uploads/2017/05/dian.png) repeat; 
-	font: 16px/25px "microsoft yahei";
+	font: 16px/25px "微軟正黑體","Microsoft JhengHei","儷黑 Pro","LiHei Pro","文泉驛正黑","WenQuanYi Zen Hei","Droid Sans";
 	color: #333;
 	text-align: center;
 	margin:10px 0 0 0px; 
@@ -614,17 +613,7 @@
 .p_img img{ 
 	width:100%; 
 	height:auto; }
-@media (max-width: 768px){
-	.n_mian{margin-top: 30px;}
-	.f_mian{ width:768px;padding: 0px 0 30px 0}
-	.f_mian .f_input{ width:300px; height:auto;}
-	.f_mian .f_input p{margin: 10px 0 0px 0;font-size: 18px;}
-	.f_mian .f_input .int,.f_mian .f_input .botn{ width:230px; height:auto; margin-left:30px;margin-top: 15px;}
-	.f_mian .f_img{ width:360px;margin-left:40px;height: auto;margin-top: 20px;}
-	.f_mian .f_img img{ width:100%; height:auto;}
-	.promotion{width: 210px;font-size: 12px;line-height: 20px;margin-left: 30px; margin-top:10px;}
-	}
-@media (max-width:500px){
+@media (max-width:932px){
 	.n_mian{margin-top: 30px;}
 	.f_mian{ width:100%; margin:0;}
 	.f_mian .f_input{ width:80%; height: auto; border-bottom:solid #ebebeb 3px; border-right:none; padding:20px 0 20px 0; margin-left:10%;}
