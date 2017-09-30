@@ -598,7 +598,7 @@
 	height: auto; 
 	overflow: hidden; 
 	padding: 15px 10px;
-	background: url(http://www.niid.com/wp-content/uploads/2017/05/dian.png) repeat; 
+	background-color: #DDDDDD; 
 	font: 16px/25px "微軟正黑體","Microsoft JhengHei","儷黑 Pro","LiHei Pro","文泉驛正黑","WenQuanYi Zen Hei","Droid Sans";
 	color: #333;
 	text-align: center;

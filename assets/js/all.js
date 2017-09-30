@@ -44,6 +44,38 @@ $(document).ready(function() {
   $(".title-k ").click(function(){
     $(".inner-k").slideToggle();
 });
+  $('.button-7').click(function(event) {
+    $(".product-2").attr({
+      "src":"images/Fino-product-2.png"
+    });
+  });
+  $('.button-8').click(function(event) {
+    $(".product-2").attr({
+      "src":"images/Fino-product-1.png"
+    });
+  });
+  $('.button-9').click(function(event) {
+    $(".product-2").attr({
+      "src":"images/Fino-product.png"
+    });
+  });
+  $('.button-10').click(function(event) {
+    $(".product-3").attr({
+      "src":"images/Fino2-product.png"
+    });
+  });
+  $('.button-11').click(function(event) {
+    $(".product-3").attr({
+      "src":"images/Fino2-product-1.png"
+    });
+  });
+  $('.button-12').click(function(event) {
+    $(".product-3").attr({
+      "src":"images/Fino2-product-2.png"
+    });
+  });
+});
+  /*
 function iEsc(){ return false; }
 function iRec(){ return true; }
 function DisableKeys() {
@@ -72,3 +104,4 @@ iEsc();}
 }
 
 });
+*/
