@@ -3,11 +3,17 @@ $(document).ready(function() {
 		$(".product-1").attr({
 			"src":"images/small-unobag2-20L-pink.png"
 		});
+    $(".changebaghref").attr({
+      "href":"unobag2pink.html"
+    });
 	});
 	$('.button-2').click(function(event) {
 		$(".product-1").attr({
 			"src":"images/small-unobag2-20L-gray.png"
 		});
+    $(".changebaghref").attr({
+      "href":"unobag2.html"
+    });
 	});
   $('.button-3').click(function(event) {
     $(".size1").attr({
@@ -75,7 +81,7 @@ $(document).ready(function() {
     });
   });
 });
-  /*
+
 function iEsc(){ return false; }
 function iRec(){ return true; }
 function DisableKeys() {
@@ -101,7 +107,4 @@ if (event.button == 2 || event.button == 3){
 event.cancelBubble = true
 event.returnValue = false;
 iEsc();}
-}
-
-});
-*/
+};
