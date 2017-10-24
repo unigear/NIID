@@ -68,7 +68,9 @@
 
 	body {
 		background: #fff;
-		font-family: "微軟正黑體","Microsoft JhengHei","儷黑 Pro","LiHei Pro","文泉驛正黑","WenQuanYi Zen Hei","Droid Sans";
+		font-family: "Arial","微軟正黑體","Microsoft JhengHei","儷黑 Pro","LiHei Pro","文泉驛正黑","WenQuanYi Zen Hei","Droid Sans";
+		-moz-user-select : none;
+		-webkit-user-select: none;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -185,7 +187,7 @@
 		color: white;
 	}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1060px) {
 
 			#nav {
 				display: none;
@@ -223,7 +225,7 @@
 			width: 3.5em;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1060px) {
 
 			.navPanelToggle {
 				display: block;
@@ -410,6 +412,11 @@
 		margin-top: 0.3em;
 		color: #fd2a2a;
 		}
+	.product-detail p{
+		font-size: 21px;
+		margin-top: 0.3em;
+		line-height: 21px;
+		}
 	.product , .product-1 , .product-2 , .product-3{
 		width: 100% ;
 		margin:0 auto;
@@ -457,7 +464,7 @@
 			margin-left: 6px;
 		}
 		.button-1 , .button-2 , .button-7 , .button-8 , .button-9 , .button-10 , .button-11 , .button-12{
-			margin-left: 6px;
+			margin-left: 3px;
 			cursor: pointer;
 		}
 	@media screen and ( max-width: 400px){

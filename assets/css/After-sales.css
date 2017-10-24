@@ -74,7 +74,9 @@
 
 	body {
 		background: #fff;
-		font-family: "微軟正黑體","Microsoft JhengHei","儷黑 Pro","LiHei Pro","文泉驛正黑","WenQuanYi Zen Hei","Droid Sans";
+		font-family: "Arial","微軟正黑體","Microsoft JhengHei","儷黑 Pro","LiHei Pro","文泉驛正黑","WenQuanYi Zen Hei","Droid Sans";
+		-moz-user-select : none;
+		-webkit-user-select: none;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
